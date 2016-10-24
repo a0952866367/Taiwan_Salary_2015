@@ -1,0 +1,67 @@
+.svg-chart {
+  margin: auto;
+  position: relative;
+  width: 960px;
+}
+
+text {
+  font-family:'cwTeXYen',sans-serif;
+  color: #4d4d4d;
+}
+
+.bars {
+  margin: auto;
+  font: 20px 'cwTeXYen',sans-serif;
+  color: #4d4d4d;
+  margin-top: 50px;
+}
+
+.check-box-female {
+  margin-right: 100px;
+  color: #4d4d4d;
+}
+
+.check-box-male {
+  color:#4d4d4d;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: normal;
+  padding: 7px;
+  font: 16px 'cwTeXYen',sans-serif;
+  background: #595959;
+  color: #fff;
+  border-radius: 4px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font: 16px 'cwTeXYen',sans-serif;
+  width: 100%;
+  line-height: 1;
+  color: #595959;
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 95%;
+  left: 0;
+}
+
+.axis path , .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.y {
+  font-family:'cwTeXYen',sans-serif;
+  fill: #4d4d4d;
+}
